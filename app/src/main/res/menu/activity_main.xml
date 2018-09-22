@@ -4,6 +4,6 @@
     <item
         android:id="@+id/menu_sure"
         android:showAsAction="always"
-        android:title="确定" />
+        android:title="查看详细信息" />
 
 </menu>

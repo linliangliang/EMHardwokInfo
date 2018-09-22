@@ -142,11 +142,11 @@ public class ThirdAdapter extends BaseAdapter {
 
         @Override
         public void onClick(View v) {
-            {//反选其他控件
+            /*{//不选其他控件
                 for(ThirdBean ThirdBean:mThirdBeans){
-                    mThirdBean.setChecked(false);
+                    ThirdBean.setChecked(false);
                 }
-            }
+            }*/
             // 点击Item的时候选中或者反选当前Item，这里没有让其它item反选，说明就是多选
             getItem(position).toggle();
             notifyDataSetChanged();
